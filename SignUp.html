@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn/SignUp</title>
+</head>
+<body>
+    <main>
+
+        <section class="SignIn" id="SignIn"><hr>
+
+            <h2>&emsp;&emsp;&emsp;&emsp;Sign In</h2><hr><br>
+            <form action="#" id="form" autocomplete="on">
+               <label>Enter your Email Id:&emsp; <input type="email" name="Email" placeholder="yourname@mail.com" required="required" autocomplete="on"></label>
+               <label>&emsp;Password:&emsp;<input type="password" name="Password" minlength="8" maxlength="13" required></label> <BR></BR><BR></BR>
+               <label><input type="button" name="SignIn" value="Sign In"></label> 
+            </form>
+
+        </section>
+        <br><br><br>
+        <section class="SignUp" id="SignUp"><hr>
+            <h2>&emsp;&emsp;&emsp;&emsp;Sign Up</h2><hr><br>
+            <form action="#" id="form" autocomplete="on">
+
+                <label>First Name: <input type="text" name="FirstName" placeholder="First Name" required="required" autocomplete="on" maxlength="10"></label>
+                <label>&emsp;Middle Name: <input type="text" name="MiddleName" placeholder="Middle Name" required="required" autocomplete="on" ></label>
+                <label>&emsp;Last Name: <input type="text" name="LastName" placeholder="last Name" required="required" autocomplete="on" maxlength="10"></label>
+                <br><br>
+                <label>Email: <input type="email" name="Email" placeholder="yourname@mail.com" required="required" autocomplete="on"></label>
+                <label>&emsp;Phone No.: <input type="number" name="PhoneNo." placeholder="******7890" required="required" autocomplete="on" maxlength="10"></label>
+                <label>&emsp;Generate a Password: <input type="password" name="Password" minlength="8" maxlength="13" required></label>
+                <br><br>
+                <!-- <label><input type="text" name="ServicesRequired" required="required" autocomplete="">Services Required:&emsp;</label> -->
+                <label for="Services">Service Type: 
+                    <select name="Service" id="Services">
+                        <option value="none">Please Select:</option>
+                        <option value="Book Purchase">Book Purchase</option>
+                        <option value="Book Rental">Book Rental</option>
+                        <option value="Reading Room Booking">Reading Room Booking</option>
+                        <option value="Recommendation">Personalized Recommendation</option>
+                        <option value=" Membership signup">Membership Signup</option>
+                    </select>
+                </label>
+
+                <!-- <label><input type="checkbox" name="Genre" required="required" autocomplete="">Genre:&emsp;</label> -->
+                <label for="Genre">&emsp;Preferred Genre:
+                    <select name="Genre" id="Genre">
+                        <option value="none">Please Select:</option>
+                        <option value="FIC">Fiction</option>
+                        <option value="">Non-Fiction</option>
+                        <option value="">Mystery & Thriller</option>
+                        <option value="">Sci-Fi</option>
+                        <option value="">Fantasy</option>
+                        <option value="">Romance</option>
+                        <option value="">Historical Fiction</option>
+                        <option value="">Biography</option>
+                        <option value="">Travel Memoir</option>
+                        <option value="">Self-Help</option>
+                        <option value="">Horror</option>
+                        <option value="">Poetry</option>
+                        <option value="">Sports</option>
+                    </select>
+                </label>
+                <br><br>
+                
+
+                <label><input type="button" name="SignUp" value="Sign Up"></label> 
+            
+            </form>
+        </section>
+    </main>
+</body>
+</html>
